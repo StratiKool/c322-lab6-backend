@@ -16,8 +16,6 @@ import java.util.List;
 @CrossOrigin
 @RequestMapping("/ducks")
 public class DuckController {
-
-
     private DucksRepository ducksRepository;
 
     public DuckController(DucksRepository ducksRepository) {
