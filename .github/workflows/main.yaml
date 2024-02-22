@@ -35,4 +35,4 @@ jobs:
         run: |
           docker login --username stratikool --password ${{secrets.ACCESS_TOKEN}} ghcr.io
           docker build -t ghcr.io/stratikool/lab6:latest --file Dockerfile .  
-          docker push ghcr.io/stratikool/lab6:latest
+          docker push ghcr.io/stratikool/c322-lab6-backend:latest
